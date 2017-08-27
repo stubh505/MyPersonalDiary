@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:padding="8dp"
+    android:background="@color/layoutBackground"
+    android:id="@+id/rlhome">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:paddingRight="8dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_rlhome"
+        android:src="@drawable/my_diary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_toRightOf="@id/img_rlhome"
+        android:text="test"
+        android:id="@+id/title_rlhome"
+        android:textColor="@color/textSecondary"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:layout_below="@id/title_rlhome"
+        android:layout_toRightOf="@id/img_rlhome"
+        android:text="test"
+        android:id="@+id/text_rlhome"
+        android:textColor="@color/textPrimary"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/date_rlhome"
+        android:text="test"
+        android:textColor="@color/textPrimary"
+        android:textSize="22sp"/>
+
+</RelativeLayout>

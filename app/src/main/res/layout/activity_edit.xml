@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="com.androvista.kaustubh.mypersonaldiary.EditActivity">
+
+    <TextView
+        style="@style/GenTextView"
+        android:id="@+id/edit_title"
+        android:layout_marginBottom="8dp"
+        android:text=""/>
+
+    <EditText
+        style="@style/GenEditBox"
+        android:text=""
+        android:id="@+id/edit_body"/>
+
+    <Button
+        style="@style/GenButton"
+        android:text="@string/submit"
+        android:onClick="submit"/>
+
+</LinearLayout>

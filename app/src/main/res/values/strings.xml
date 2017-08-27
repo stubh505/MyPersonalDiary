@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Personal Diary</string>
+    <string name="loading">Loading...</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="new_password">Enter New Password</string>
+    <string name="cnf_password">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="reg_pass">Register Password</string>
+    <string name="sec_ques">Security Question</string>
+    <string name="sec_ans">Security Answer</string>
+    <string name="title">Title</string>
+    <string name="enter_title">Enter the Title</string>
+    <string name="entry">Entry</string>
+    <string name="enter_text">Enter your text here</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="no_entries">No Entries Yet!</string>
+    <string name="add_new">Add New Entry</string>
+</resources>

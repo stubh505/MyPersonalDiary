@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">আমার ব্যক্তিগত ডায়েরি </string>
+    <string name="cnf_password">পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="delete">ডিলিট করুন</string>
+    <string name="edit">সম্পাদনা করুন</string>
+    <string name="enter_password">পাসওয়ার্ড লিখুন</string>
+    <string name="enter_text">এখানে লিখুন</string>
+    <string name="new_password">নতুন পাসওয়ার্ড লিখুন</string>
+    <string name="reg_pass">পাসওয়ার্ড নিবন্ধন করুন</string>
+    <string name="login">লগইন করুন</string>
+    <string name="loading">লোড হচ্ছে ...</string>
+    <string name="forgot_password">পাসওয়ার্ড ভুলে গেছেন?</string>
+    <string name="enter_title">শিরোনাম লিখুন</string>
+    <string name="entry">এণ্ট্রি</string>
+    <string name="sec_ans">সিকিউরিটি উত্তর</string>
+    <string name="sec_ques">সিকিউরিটি প্রশ্ন</string>
+    <string name="submit">জমা করুন</string>
+    <string name="title">শিরোনাম</string>
+    <string name="no_entries">এখনো কিছু লেখা হয়নি</string>
+    <string name="add_new">নতুন এন্ট্রি যোগ করুন</string>
+</resources>

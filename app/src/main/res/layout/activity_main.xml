@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:id="@+id/main_layout"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.androvista.kaustubh.mypersonaldiary.MainActivity">
+
+    <TextView
+        style="@style/GenTextView"
+        android:layout_marginBottom="8dp"
+        android:text="@string/enter_password" />
+
+    <EditText
+        style="@style/GenEditText"
+        android:id="@+id/password"
+        android:textSize="22sp"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        style="@style/GenButton"
+        android:onClick="login"
+        android:text="@string/login"/>
+
+    <Button
+        style="@style/GenButton"
+        android:onClick="forgotPassword"
+        android:layout_marginTop="0dp"
+        android:text="@string/forgot_password"/>
+
+</LinearLayout>

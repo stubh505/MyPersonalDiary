@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.androvista.kaustubh.mypersonaldiary.AddNewActivity">
+
+    <TextView
+        style="@style/GenTextView"
+        android:text="@string/title" />
+
+    <EditText
+        style="@style/GenEditText"
+        android:hint="@string/enter_title"
+        android:inputType="textCapSentences"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/title"/>
+
+    <TextView
+        style="@style/GenTextView"
+        android:text="@string/entry"/>
+
+    <EditText
+        style="@style/GenEditBox"
+        android:hint="@string/enter_text"
+        android:id="@+id/body"/>
+
+    <Button
+        style="@style/GenButton"
+        android:text="@string/submit"
+        android:onClick="add"/>
+
+</LinearLayout>

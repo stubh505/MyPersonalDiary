@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.androvista.kaustubh.mypersonaldiary.ViewEntryActivity">
+
+    <TextView
+        android:id="@+id/view_title"
+        style="@style/GenTextView"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/view_body"
+        style="@style/GenEditBox"
+        android:scrollbars="vertical"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/GenButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="edit"
+            android:text="@string/edit" />
+
+        <Button
+            android:layout_width="0dp"
+            style="@style/GenButton"
+            android:layout_weight="1"
+            android:onClick="delete"
+            android:text="@string/delete" />
+
+    </LinearLayout>
+
+</LinearLayout>
